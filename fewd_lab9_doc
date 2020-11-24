@@ -1,0 +1,18 @@
+Julien QUENNEHEN 22862
+
+3. React is a javascript library how use components to render things and a component renders content by returning some JSX.
+
+4. The Virtual-DOM is the API how used to perform the actual rendering on a web page of the navigator.
+
+5. The JavaScript XML is HTML markup mixed with custom tags for the React components.
+
+6. A component can be a function or a class how render and return something.
+
+class Welcome extends React.Component {
+  render() {
+    return <h1>Bonjour, {this.props.name}</h1>;
+  }
+}
+
+7. I can use node with node-modules, if i want to add Bulma to my React App i just have to type in the console "npm i bulma" and this with be added to the node-modules of my applications. After that i will be free to import in the project. "import 'bulma/css/bulma.css'".
+
